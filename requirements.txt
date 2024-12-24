@@ -2,3 +2,4 @@ tkinter      # Kullanıcı arayüzü için
 pillow       # Simge ve görselleri işlemek için
 pyobjc       # macOS için dock simgesi (isteğe bağlı)
 sqlite3      # Veritabanı işlemleri (Python ile birlikte gelir)
+Flask==2.3.2 # Flask, web uygulaması için
