@@ -17,15 +17,15 @@
         <section class="score-section">
             <div class="team-score red-team">
                 <h2>Red Team</h2>
-                <p id="red-score">0</p>
+                <p id="red-score">{{ scores["red"] }}</p>
             </div>
             <div class="timer">
                 <h2>Time Remaining</h2>
-                <p id="timer">2:00</p>
+                <p id="timer">{{ timer }}</p>
             </div>
             <div class="team-score blue-team">
                 <h2>Blue Team</h2>
-                <p id="blue-score">0</p>
+                <p id="blue-score">{{ scores["blue"] }}</p>
             </div>
         </section>
     </main>

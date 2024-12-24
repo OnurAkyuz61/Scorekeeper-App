@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorekeeper</title>
+    <link rel="stylesheet" href="/static/css/scorekeeper.css">
+    <script src="/static/js/scorekeeper.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>Scorekeeper</h1>
+    </header>
+    <main class="main-container">
+        <section class="controls">
+            <div class="team-controls red-team-controls">
+                <h2>Red Team</h2>
+                <button onclick="updateScore('red', 10)">+10</button>
+                <button onclick="updateScore('red', -10)">-10</button>
+            </div>
+            <div class="timer-controls">
+                <h2>Timer</h2>
+                <p id="timer-display">2:00</p>
+                <button onclick="startTimer()">Start</button>
+                <button onclick="stopTimer()">Stop</button>
+                <button onclick="resetTimer()">Reset</button>
+            </div>
+            <div class="team-controls blue-team-controls">
+                <h2>Blue Team</h2>
+                <button onclick="updateScore('blue', 10)">+10</button>
+                <button onclick="updateScore('blue', -10)">-10</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
